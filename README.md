@@ -14,5 +14,7 @@
 `pip install -r requirements.txt`
 
 ## 使用
+```
 `python FofaSpider.py -q title='管理后台'`
 `python FofaSpider.py -q "domain='baidu.com'||title='百度'" -p 5`
+```
