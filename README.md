@@ -14,12 +14,12 @@
 `pip install -r requirements.txt`
 
 ## 使用
-```
+
 `python FofaSpider.py -q title='管理后台'`
+
 ![image](https://user-images.githubusercontent.com/43526141/140609676-cfe59554-96be-4101-b322-f9c96258c388.png)
 
 
 `python FofaSpider.py -q "domain='baidu.com'||title='百度'" -p 5`
-![image](https://user-images.githubusercontent.com/43526141/140609708-e3aa0789-c335-4480-bdac-72f46a41ef43.png)
 
-```
+![image](https://user-images.githubusercontent.com/43526141/140609708-e3aa0789-c335-4480-bdac-72f46a41ef43.png)
