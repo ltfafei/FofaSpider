@@ -16,8 +16,8 @@ class myFofaSpider():
     def getData(self, query, page, pgSize=10):
         query = str(base64.b64encode(query.encode()))[2:-1].format(query)
         for p in range(1, page+1):
-            #all_url = f"https://fofa.so/result?qbase64={query}&full=true&page={p}&page_size={pgSize}"
-            url = f"https://fofa.so/result?qbase64={query}&page={p}&page_size={pgSize}"
+            #all_url = f"https://fofa.info/result?qbase64={query}&full=true&page={p}&page_size={pgSize}"
+            url = f"https://fofa.info/result?qbase64={query}&page={p}&page_size={pgSize}"
             urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
             headers = {
                 "User-Agent": get_ua.random_ua(self),
