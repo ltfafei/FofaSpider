@@ -24,3 +24,6 @@
 `python FofaSpider.py -q "domain='baidu.com'||title='百度'" -p 5`
 
 ![image](https://user-images.githubusercontent.com/43526141/140609708-e3aa0789-c335-4480-bdac-72f46a41ef43.png)
+
+`python FofaSpider.py -q "app=\"泛微-协同办公OA\" && before=\"2022-02-01\" && after=\"2022-01-01\""` -p 1000
+![image](https://user-images.githubusercontent.com/43526141/153793194-f08bdbd5-3a63-4db6-8a04-122e3f69f7a3.png)
