@@ -2,6 +2,8 @@
 使用本工具请遵守《网络安全法》
 
 ## 使用说明
+### FofaSpider_v1.0使用说明：
+    FofaSpider_v1.0的时候，fofa全局采用Cookie进行鉴权。近段时间fofa升级了（听说封闭开发了一周），突然发现FofaSpider不能用了，抓包发现资产查询时不在使用Cookie鉴权，而使用了JWT进行鉴权，所以FofaSpider也该升级了。
 ```
   FofaSpider基于python3编写，使用请安装python3环境。
   
@@ -13,6 +15,7 @@
 
 ## 依赖安装
 `pip install -r requirements.txt`
+
 
 ## 使用演示
 
